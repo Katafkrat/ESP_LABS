@@ -1,0 +1,14 @@
+dependencies:
+  idf: ">=5.0.0"
+
+  # LED and Button handling
+  espressif/led_indicator: "*"
+  espressif/button: "*"
+
+  # RainMaker Core components (These fix your "No such file" error)
+  espressif/rmaker_common: "*"
+
+  # RainMaker Helper components
+  espressif/rmaker_app_reset: "*"
+  espressif/rmaker_app_network: "*"
+  espressif/rmaker_app_insights: "*"
